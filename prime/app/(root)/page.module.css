@@ -1,0 +1,81 @@
+.Home {
+    background: url(/assets/Hero1.jpg);
+    background-size: cover;
+    background-position: right top;
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.HomeContent::before,
+.RentalHomeContent::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(to right, #000 40%, transparent 58%);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.HomeContent div,
+.RentalHomeContent div,
+.Firestick_HomeContent div {
+    color: #fff;
+    position: relative;
+    padding: 50px;
+}
+
+.HomeContent div h6,
+.RentalHomeContent div h6,
+.Firestick_HomeContent div h6 {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.HomeContent div h5,
+.RentalHomeContent div h5,
+.Firestick_HomeContent div h5 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #ccc;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+/* For Rental Home */
+.RentalHome {
+    background: url(/assets/Hero2.jpg);
+    background-size: cover;
+    background-position: right top;
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* For Firestick */
+
+.Firestick_Home {
+    background: url(/assets/Firestick.jpg);
+    background-size: cover;
+    background-position: right top;
+    height: 70vh;
+    width: 100%;
+    position: relative;
+}
+
+.Firestick_HomeContent::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(to left, #000 40%, transparent 58%);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,16 @@
+.Channels {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 40px;
+}
+
+.Channels div h6 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.Channels div p {
+    font-size: 20px;
+    margin-block: 30px;
+}

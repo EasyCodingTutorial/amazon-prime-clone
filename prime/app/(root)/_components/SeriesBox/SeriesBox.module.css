@@ -1,0 +1,92 @@
+.SeriesRow {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    gap: 20px;
+}
+
+.SeriesRow .SeriesBox {
+    height: max-content;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.7);
+    background: #000;
+    margin-top: 20px;
+    transition: 0.2s ease-in;
+}
+
+.SeriesBox:hover {
+    transform: scale(1.08);
+
+}
+
+.SeriesBox img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.SeriesBoxContent {
+    margin-top: 0px;
+    padding: 10px;
+    color: #fff;
+    display: none;
+}
+
+.SeriesBox:hover .SeriesBoxContent {
+    display: initial;
+}
+
+.SeriesBoxContent .Icons {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.SeriesBoxContent .Icons div {
+    display: flex;
+}
+
+.SeriesBoxContent .Icons p {
+    font-weight: 800;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.SeriesBoxContent .Icons .Icon {
+    background: #ccc;
+    color: #000;
+    border-radius: 50%;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.SeriesBoxContent .CustomBox {
+    padding: 10px;
+}
+
+.SeriesBoxContent .CustomBox h6 {
+    font-weight: 800;
+    font-size: 13px;
+}
+
+.SeriesBoxContent .CustomBox .Year {
+    color: #ccc;
+    margin-block: 10px;
+}
+
+.SeriesBoxContent .CustomBox .Lan {
+    font-weight: 700;
+    color: #ccc;
+    margin-bottom: 2px;
+}
+
+.SeriesBoxContent .CustomBox .Desc {
+    font-size: 13px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
+}

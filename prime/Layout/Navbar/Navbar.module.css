@@ -1,0 +1,28 @@
+.NavbarMain {
+    background: var(--mainColor);
+    padding-inline: 400px;
+    padding-block: 20px;
+    display: flex;
+    gap: 100px;
+}
+
+.NavbarMain img {
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+    height: max-content;
+}
+
+.NavbarMain .NavLinks {
+    margin-top: 10px;
+}
+
+.NavbarMain .NavLinks .NavLink {
+    color: #938c8c;
+    font-weight: 700;
+    margin-inline: 20px;
+}
+
+.NavLinks .NavLink:hover {
+    color: #fff;
+}

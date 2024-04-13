@@ -1,0 +1,31 @@
+.Footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background: var(--mainColor);
+}
+
+.Footer .FooterRow {
+    text-align: center;
+    margin-block: 30px;
+}
+
+.FooterRow img {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+
+.FooterLinks {
+    margin-block: 10px;
+}
+
+.FooterLink {
+    color: var(--main);
+    margin-inline: 10px;
+}
+
+.Footer p {
+    color: #8d8686;
+    margin-top: 10px;
+}

@@ -1,0 +1,14 @@
+.ChannelBox {
+    margin-inline: 10px;
+}
+
+.ChannelBox img {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.ChannelBox img:hover {
+    box-shadow: 20px 20px 20px -20px rgba(0, 0, 0, 0.9);
+    transform: scale(1.02);
+}

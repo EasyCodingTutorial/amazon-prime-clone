@@ -1,0 +1,11 @@
+.Button {
+    background: var(--main);
+    color: #fff;
+    font-weight: 800;
+    padding: 10px 14px;
+    border-radius: 2px;
+}
+
+.Button:hover {
+    background: var(--HoverColor);
+}
