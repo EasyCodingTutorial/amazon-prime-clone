@@ -24,7 +24,7 @@ Follow these steps to get the project up and running on your local machine:
 Contributions are welcome! Feel free to open issues for any bugs, feature requests, or suggestions.
  
 
+
  ## Learn By Watching Video  ▶️
-![React js](https://github.com/EasyCodingTutorial/amazon-prime-clone/assets/84335112/aeed2d76-3909-4df3-ab1b-b23e0d53f3e9)
-
-
+ [![Watch Demo Video](https://img.youtube.com/vi/z4RNIfaR_QM/maxresdefault.jpg)](https://www.youtube.com/watch?v=z4RNIfaR_QM)
+ 
