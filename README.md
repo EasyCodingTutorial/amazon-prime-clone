@@ -1,9 +1,10 @@
 # amazon-prime-clone
-amazon-prime-clone Using Next.js , Typescript, React.js in 2024
+amazon-prime-clone Using Next.js, TypeScript, React.js in 2024
+
 ![prime-0](https://github.com/EasyCodingTutorial/amazon-prime-clone/assets/84335112/5388858a-975b-4b45-9b45-f81ddddd7ef6)
 
 This project aims to create an Amazon Prime clone with Next.js 14, utilizing TypeScript for type safety, React.js for building the UI components, React Icons for iconography, and other libraries as needed.
- 
+
 ## Technologies Used
 - **Next.js 14:** A React framework for building server-side rendered applications.
 - **TypeScript:** A statically typed superset of JavaScript for enhanced code quality and developer productivity.
@@ -22,9 +23,6 @@ Follow these steps to get the project up and running on your local machine:
 
 ## Contributions
 Contributions are welcome! Feel free to open issues for any bugs, feature requests, or suggestions.
- 
 
-
- ## Learn By Watching Video  ▶️
- [![Watch Demo Video](https://img.youtube.com/vi/z4RNIfaR_QM/maxresdefault.jpg)](https://www.youtube.com/watch?v=z4RNIfaR_QM)
- 
+## Learn By Watching Video ▶️
+[![Watch Demo Video](https://img.youtube.com/vi/z4RNIfaR_QM/maxresdefault.jpg)](https://www.youtube.com/watch?v=z4RNIfaR_QM)
